@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-3 bg-white transition-all duration-300">
       <div className="flex items-center gap-2">
-        <AnimatedLogo width={36} height={36} className="w-9 h-auto" />
+        <AnimatedLogo width={44} height={44} className="w-11 h-auto" />
         <span className="text-xl font-black tracking-tight text-foreground uppercase">
           Tiera
         </span>
