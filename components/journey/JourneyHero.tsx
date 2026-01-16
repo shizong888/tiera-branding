@@ -46,7 +46,7 @@ const JourneyHero = () => {
           </div>
 
           {/* Hero Image - Shifted up for better visibility */}
-          <BlurFade delay={0.4} className="relative w-full max-w-[1400px] mt-2 lg:mt-3 px-6 lg:px-0 translate-y-12">
+          <BlurFade delay={0.4} className="relative w-full max-w-[1400px] mt-0 lg:mt-1 px-6 lg:px-0 translate-y-12">
             <div className="relative w-full aspect-[16/9] lg:aspect-[21/10]">
               <Image
                 src="/images/hero-en.png"
