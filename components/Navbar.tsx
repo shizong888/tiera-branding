@@ -1,20 +1,14 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
+import AnimatedLogo from "./AnimatedLogo";
 
 const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-3 bg-white transition-all duration-300">
       <div className="flex items-center gap-2">
-        <Image
-          src="/images/tiera-icon.svg"
-          alt="Tiera Logo"
-          width={28}
-          height={28}
-          className="w-7 h-auto"
-        />
+        <AnimatedLogo width={36} height={36} className="w-9 h-auto" />
         <span className="text-xl font-black tracking-tight text-foreground uppercase">
           Tiera
         </span>
