@@ -37,7 +37,7 @@ const JourneyFeaturesGrid = () => {
           <div className="w-full relative z-10">
             {/* Top Row: Joined Featured Card */}
             <div className="grid grid-cols-1 lg:grid-cols-2">
-              <div className="bg-[#1B1E4B] p-12 lg:p-16 flex flex-col justify-center gap-8 border-b lg:border-b-0 lg:border-r border-white/10 rounded-t-[3rem] lg:rounded-tr-none lg:rounded-tl-[3rem]">
+              <div className="bg-[#1B1E4B] p-12 lg:p-16 flex flex-col justify-center gap-8 border-b lg:border-b-0 lg:border-r border-white/10 rounded-none lg:rounded-tl-[3rem] order-2 lg:order-1">
                 <h3 className="text-2xl lg:text-[2rem] font-black tracking-tighter text-white leading-tight">
                 Frictionless browsing <br />
                   <span className="text-secondary italic font-black">protected by a VPN</span>
@@ -49,17 +49,17 @@ const JourneyFeaturesGrid = () => {
                   More about VPN <ArrowRight size={14} />
                 </button>
               </div>
-              
-              <div className="relative bg-[#2A2D5E] min-h-[450px] rounded-t-[3rem] lg:rounded-tl-none lg:rounded-tr-[3rem]">
+
+              <div className="relative bg-[#2A2D5E] min-h-[450px] rounded-t-[3rem] lg:rounded-t-none lg:rounded-tr-[3rem] order-1 lg:order-2">
                 {/* The "Poke Out" Image - Using clip-path to ensure ONLY top overflow */}
-                <div 
+                <div
                   className="absolute inset-0 pointer-events-none z-20"
                   style={{ clipPath: 'inset(-100% 0px 0px 0px)' }}
                 >
-                  <Image 
-                    src="/images/asian-cover-transparent.png" 
-                    alt="Tiera User" 
-                    fill 
+                  <Image
+                    src="/images/asian-cover-transparent.png"
+                    alt="Tiera User"
+                    fill
                     className="object-contain object-bottom scale-[2.0] origin-bottom translate-y-2"
                     priority
                   />
@@ -72,11 +72,11 @@ const JourneyFeaturesGrid = () => {
             <div className="grid grid-cols-1 md:grid-cols-12">
               
               {/* Box 1 (Teal) */}
-              <div className="md:col-span-6 lg:col-span-5 bg-secondary p-12 flex flex-col justify-between gap-12 min-h-[450px] border-b md:border-b-0 md:border-r border-foreground/5 lg:rounded-bl-[3rem]">
-                <h4 className="text-2xl font-black tracking-tighter text-foreground leading-tight">
+              <div className="md:col-span-6 lg:col-span-5 bg-secondary p-12 flex flex-col gap-12 min-h-[450px] border-b md:border-b-0 md:border-r border-foreground/5 rounded-none lg:rounded-bl-[3rem]">
+                <h4 className="text-2xl font-black tracking-tighter text-foreground leading-tight order-2 md:order-1">
                   Experience the web before advertising happened: free of ads, cookie pop-ups, & trackers.
                 </h4>
-                <div className="relative flex-1 flex items-center justify-center px-4">
+                <div className="relative flex-1 flex items-center justify-center px-4 order-1 md:order-2">
                   <Image
                     src="/images/ad-block.png"
                     alt="Ad blocking illustration"
@@ -89,7 +89,7 @@ const JourneyFeaturesGrid = () => {
               </div>
 
               {/* Box 2 (Light Grey) */}
-              <div className="md:col-span-6 lg:col-span-4 bg-muted p-12 flex flex-col justify-between gap-12 min-h-[450px] border-b md:border-b-0 lg:border-r border-foreground/5">
+              <div className="md:col-span-6 lg:col-span-4 bg-muted p-12 flex flex-col justify-between gap-12 min-h-[450px] border-b md:border-b-0 lg:border-r border-foreground/5 rounded-none">
                 <div className="relative flex-1 flex items-center justify-center -mx-12">
                   <div className="relative w-full h-full flex items-center justify-center">
                     <Image
@@ -106,21 +106,21 @@ const JourneyFeaturesGrid = () => {
                     />
                   </div>
                 </div>
-                <p className="text-sm font-bold text-foreground/60 leading-relaxed uppercase tracking-widest text-center">
+                <p className="text-sm font-bold text-foreground/60 leading-relaxed tracking-widest text-center">
                     Seamless protection, everywhere.
                 </p>
               </div>
 
               {/* Box 3 (Stacked Stats) */}
-              <div className="md:col-span-12 lg:col-span-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 md:rounded-br-[3rem] lg:rounded-bl-none">
-                <div className="bg-white p-12 flex flex-col items-center justify-center text-center gap-2 border-b md:border-b-0 lg:border-b border-zinc-100">
+              <div className="md:col-span-12 lg:col-span-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 rounded-none">
+                <div className="bg-white p-12 flex flex-col items-center justify-center text-center gap-2 border-b md:border-b-0 lg:border-b border-zinc-100 rounded-none">
                   <div className="text-6xl font-black tracking-tighter text-foreground">100+</div>
                   <div className="text-[10px] font-black tracking-widest text-muted-foreground uppercase">Countries</div>
                   <div className="relative w-20 h-20 mt-4 text-secondary opacity-30">
                     <Globe size={80} strokeWidth={0.5} />
                   </div>
                 </div>
-                <div className="bg-[#1B1E4B] p-12 flex flex-col items-center justify-center text-center gap-2 rounded-br-[3rem]">
+                <div className="bg-[#1B1E4B] p-12 flex flex-col items-center justify-center text-center gap-2 rounded-b-[3rem] md:rounded-b-none md:rounded-br-[3rem] lg:rounded-br-[3rem]">
                   <div className="text-6xl font-black tracking-tighter text-white">4500+</div>
                   <div className="text-[10px] font-black tracking-widest text-white/40 uppercase">RAM-only servers</div>
                 </div>
