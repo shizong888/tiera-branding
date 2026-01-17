@@ -17,28 +17,28 @@ const JourneyBeyond = () => {
             {/* Orbiting Icons */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 p-4 bg-card rounded-2xl shadow-xl border border-border flex flex-col items-center gap-1 group hover:scale-110 transition-transform">
               <Key size={18} className="text-secondary" />
-              <span className="text-[8px] font-black tracking-widest text-muted-foreground uppercase">LEGAL</span>
+              <span className="text-[8px] font-black tracking-widest text-muted-foreground uppercase">Legal</span>
             </div>
             
             <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 p-4 bg-card rounded-2xl shadow-xl border border-border flex flex-col items-center gap-1 group hover:scale-110 transition-transform">
               <Zap size={18} className="text-accent" />
-              <span className="text-[8px] font-black tracking-widest text-muted-foreground uppercase">UTIL</span>
+              <span className="text-[8px] font-black tracking-widest text-muted-foreground uppercase">Util</span>
             </div>
 
             <div className="absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 p-4 bg-card rounded-2xl shadow-xl border border-border flex flex-col items-center gap-1 group hover:scale-110 transition-transform">
               <Layout size={18} className="text-primary" />
-              <span className="text-[8px] font-black tracking-widest text-muted-foreground uppercase">HUB</span>
+              <span className="text-[8px] font-black tracking-widest text-muted-foreground uppercase">Hub</span>
             </div>
 
             <div className="absolute right-0 top-1/2 translate-x-1/2 -translate-y-1/2 p-4 bg-card rounded-2xl shadow-xl border border-border flex flex-col items-center gap-1 group hover:scale-110 transition-transform">
               <FileText size={18} className="text-secondary" />
-              <span className="text-[8px] font-black tracking-widest text-muted-foreground uppercase">VISA</span>
+              <span className="text-[8px] font-black tracking-widest text-muted-foreground uppercase">Visa</span>
             </div>
 
             {/* Central Node */}
             <div className="relative z-10 w-32 h-32 bg-foreground rounded-[2rem] flex flex-col items-center justify-center gap-2 shadow-2xl">
               <Shield size={32} className="text-primary" />
-              <span className="text-[8px] font-black tracking-widest text-background uppercase text-center leading-tight">SENTINEL CORE<br/>SECURED</span>
+              <span className="text-[8px] font-black tracking-widest text-background uppercase text-center leading-tight">Sentinel core<br/>secured</span>
             </div>
 
             {/* Orbit paths (dashed circles) */}
@@ -56,9 +56,9 @@ const JourneyBeyond = () => {
           </BlurFade>
           
           <BlurFade delay={0.3}>
-            <h2 className="text-5xl md:text-6xl font-black tracking-tight leading-[1] text-foreground">
+            <h2 className="text-4xl md:text-6xl font-black tracking-tight leading-[1] text-foreground">
               Beyond <br />
-              <span className="text-primary italic">Protection.</span>
+              <span className="text-primary italic">protection.</span>
             </h2>
           </BlurFade>
 

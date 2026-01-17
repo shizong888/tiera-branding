@@ -1,20 +1,32 @@
 "use client";
 
 import Navbar from "@/components/Navbar";
-import JourneyHero from "@/components/journey/JourneyHero";
-import JourneyFeaturesGrid from "@/components/journey/JourneyFeaturesGrid";
-import JourneyTabs from "@/components/journey/JourneyTabs";
+import DownloadHero from "@/components/download/DownloadHero";
 import Image from "next/image";
 
-export default function Home() {
+export default function DownloadPage() {
   return (
     <main className="min-h-screen bg-white text-black selection:bg-primary/30">
       <Navbar />
-      <JourneyHero />
-      <JourneyFeaturesGrid />
-      <JourneyTabs />
+      <DownloadHero />
+      
+      {/* Device Selection Section */}
+      <section className="py-32 px-6 bg-white">
+        <div className="container max-w-6xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
+            {['Windows', 'macOS', 'iOS', 'Android', 'Linux', 'Chrome'].map((os) => (
+              <div key={os} className="flex flex-col items-center gap-4 group cursor-pointer">
+                <div className="w-20 h-20 rounded-3xl bg-zinc-50 border border-zinc-100 flex items-center justify-center group-hover:bg-secondary group-hover:border-secondary transition-all">
+                  <div className="w-8 h-8 bg-foreground/10 group-hover:bg-foreground/20 rounded" />
+                </div>
+                <span className="text-sm font-bold tracking-tight">{os}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-      {/* Footer for Journey */}
+      {/* Footer (Matching Home) */}
       <footer className="py-24 px-6 bg-[#f9fafb] border-t border-border">
         <div className="container max-w-6xl mx-auto flex flex-col items-center gap-16 text-center">
           <div className="flex items-center gap-3">
@@ -70,3 +82,4 @@ export default function Home() {
     </main>
   );
 }
+

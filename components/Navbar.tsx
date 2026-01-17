@@ -15,11 +15,11 @@ const Navbar = () => {
       </div>
 
       <div className="hidden lg:flex items-center gap-10 text-[13px] font-bold text-foreground/70 tracking-wide">
-        <Link href="#" className="hover:text-primary transition-colors">
+        <Link href="/" className="hover:text-primary transition-colors">
           Products
         </Link>
-        <Link href="#" className="hover:text-primary transition-colors">
-          Solutions
+        <Link href="/download" className="hover:text-primary transition-colors">
+          Download
         </Link>
         <Link href="#" className="hover:text-primary transition-colors">
           Security

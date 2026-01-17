@@ -10,13 +10,13 @@ const JourneyInformationControl = () => {
       <div className="container max-w-6xl mx-auto flex flex-col gap-16">
         <BlurFade delay={0.1}>
           <div className="flex flex-col md:flex-row items-end justify-between gap-12">
-            <h2 className="text-5xl md:text-7xl font-black tracking-tighter leading-[0.9] text-foreground uppercase">
-              CONTROL YOUR <br />
-              <span className="text-muted-foreground">PERSONAL</span> <br />
-              <span className="text-primary italic">INFORMATION ONLINE.</span>
+            <h2 className="text-3xl md:text-5xl font-black tracking-tighter leading-[0.9] text-foreground">
+              Control your <br />
+              <span className="text-muted-foreground font-black">personal</span> <br />
+              <span className="text-primary italic">information online.</span>
             </h2>
             <button className="bg-primary text-primary-foreground px-10 py-5 rounded-full font-black text-sm tracking-widest uppercase hover:scale-105 transition-all shadow-xl shadow-primary/20">
-              GET TIERA VPN
+              Get Tiera VPN
             </button>
           </div>
         </BlurFade>

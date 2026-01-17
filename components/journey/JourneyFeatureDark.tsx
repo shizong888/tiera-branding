@@ -21,9 +21,9 @@ const JourneyFeatureDark = () => {
               </BlurFade>
 
               <BlurFade delay={0.3}>
-                <h2 className="text-5xl md:text-7xl font-black tracking-tight leading-[1] text-white">
-                  Experience the <span className="text-white">future of</span> speed <br />
-                  <span className="text-primary italic">With our proprietary protocol</span>
+                <h2 className="text-3xl md:text-5xl font-black tracking-tight leading-[1] text-white">
+                  Experience the future of speed <br />
+                  <span className="text-primary italic">with our proprietary protocol</span>
                 </h2>
               </BlurFade>
 

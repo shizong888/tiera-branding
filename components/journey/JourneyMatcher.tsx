@@ -14,9 +14,9 @@ const JourneyMatcher = () => {
           </div>
           
           <BlurFade delay={0.1}>
-            <h2 className="text-5xl md:text-6xl font-black tracking-tight leading-[1] text-foreground uppercase">
+            <h2 className="text-3xl md:text-5xl font-black tracking-tight leading-[1] text-foreground">
               Lifestyle <br />
-              <span className="text-primary/30 italic">Matcher.</span>
+              <span className="text-primary/30 italic">matcher.</span>
             </h2>
           </BlurFade>
 
@@ -29,9 +29,9 @@ const JourneyMatcher = () => {
 
           <div className="space-y-4">
             {[
-              { title: "REMOTE WORK", desc: "Precise latency optimization for your specific cloud tools and meetings.", icon: Zap },
-              { title: "PRIVATE STREAMING", desc: "Unrestricted access to global content libraries without buffering.", icon: Shield },
-              { title: "FAMILY SAFETY", desc: "Centralized protection for all your household devices and children.", icon: Heart },
+              { title: "Remote work", desc: "Precise latency optimization for your specific cloud tools and meetings.", icon: Zap },
+              { title: "Private streaming", desc: "Unrestricted access to global content libraries without buffering.", icon: Shield },
+              { title: "Family safety", desc: "Centralized protection for all your household devices and children.", icon: Heart },
             ].map((item, i) => (
               <BlurFade key={i} delay={0.3 + i * 0.1}>
                 <div className="flex items-start gap-6 p-6 rounded-[2rem] border border-zinc-100 bg-white hover:shadow-xl hover:shadow-zinc-200/50 transition-all group">
@@ -53,12 +53,12 @@ const JourneyMatcher = () => {
             <div className="relative w-full bg-white rounded-[3rem] p-12 shadow-2xl border border-border flex flex-col gap-16">
               <div className="flex items-center justify-between">
                 <div className="space-y-1">
-                  <span className="text-[8px] font-black tracking-widest text-zinc-400 uppercase">PROTOCOL ANALYSIS</span>
-                  <h4 className="text-sm font-black italic tracking-tighter uppercase">Tiera Sentinel</h4>
+                  <span className="text-[8px] font-black tracking-widest text-zinc-400 uppercase">Protocol analysis</span>
+                  <h4 className="text-sm font-black italic tracking-tighter uppercase">Tiera sentinel</h4>
                 </div>
                 <div className="bg-green-50 text-green-600 px-4 py-1.5 rounded-full text-[10px] font-black tracking-widest flex items-center gap-2">
                   <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
-                  -14 MS LATENCY
+                  -14 ms latency
                 </div>
               </div>
 
@@ -73,19 +73,19 @@ const JourneyMatcher = () => {
                   <Shield size={16} />
                 </div>
                 
-                <span className="absolute top-8 left-[0%] -translate-x-1/2 text-[8px] font-black tracking-widest text-muted-foreground uppercase">OFFLINE</span>
-                <span className="absolute top-8 left-[40%] -translate-x-1/2 text-[8px] font-black tracking-widest text-primary uppercase">WORK</span>
-                <span className="absolute top-8 left-[75%] -translate-x-1/2 text-[8px] font-black tracking-widest text-secondary uppercase">SECURED</span>
+                <span className="absolute top-8 left-[0%] -translate-x-1/2 text-[8px] font-black tracking-widest text-muted-foreground uppercase">Offline</span>
+                <span className="absolute top-8 left-[40%] -translate-x-1/2 text-[8px] font-black tracking-widest text-primary uppercase">Work</span>
+                <span className="absolute top-8 left-[75%] -translate-x-1/2 text-[8px] font-black tracking-widest text-secondary uppercase">Secured</span>
               </div>
 
               <div className="grid grid-cols-2 gap-4 mt-4">
                 <div className="p-6 bg-zinc-50 rounded-2xl border border-zinc-100">
-                  <span className="text-[8px] font-black tracking-widest text-zinc-400 uppercase">AVG SPEED</span>
-                  <p className="text-lg font-black italic tracking-tighter">940 MBPS</p>
+                  <span className="text-[8px] font-black tracking-widest text-zinc-400 uppercase">Avg speed</span>
+                  <p className="text-lg font-black italic tracking-tighter">940 mbps</p>
                 </div>
                 <div className="p-6 bg-zinc-50 rounded-2xl border border-zinc-100">
-                  <span className="text-[8px] font-black tracking-widest text-zinc-400 uppercase">MATCH SCORE</span>
-                  <p className="text-lg font-black italic tracking-tighter text-primary">98% PERFECT</p>
+                  <span className="text-[8px] font-black tracking-widest text-zinc-400 uppercase">Match score</span>
+                  <p className="text-lg font-black italic tracking-tighter text-primary">98% Perfect</p>
                 </div>
               </div>
             </div>

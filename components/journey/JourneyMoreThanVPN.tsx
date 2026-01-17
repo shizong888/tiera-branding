@@ -48,7 +48,7 @@ const JourneyMoreThanVPN = () => {
     <section className="pt-32 pb-32 px-6 bg-background transition-colors duration-500">
       <div className="container max-w-6xl mx-auto flex flex-col gap-16">
         <BlurFade delay={0.1}>
-          <h2 className="text-5xl lg:text-6xl xl:text-7xl font-black tracking-tighter text-foreground uppercase">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-black tracking-tighter text-foreground leading-none">
             More than <br />
             <span className="text-primary italic">a VPN.</span>
           </h2>

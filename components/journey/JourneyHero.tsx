@@ -23,7 +23,7 @@ const JourneyHero = () => {
 
           <div className="flex flex-col items-center text-center gap-4 relative z-10 px-6 max-w-4xl">
             <BlurFade delay={0.1}>
-              <h1 className="text-4xl md:text-6xl lg:text-[5.5rem] font-bold tracking-tight leading-[1.05] text-foreground">
+              <h1 className="text-4xl md:text-6xl lg:text-[4.5rem] font-bold tracking-tight leading-[1.05] text-foreground">
                 Online security starts with a VPN
               </h1>
             </BlurFade>

@@ -11,17 +11,17 @@ const JourneyDashboard = () => {
         <div className="flex flex-col md:flex-row items-end justify-between gap-12">
           <div className="flex-1 flex flex-col items-start gap-10">
             <BlurFade delay={0.1}>
-              <h2 className="text-5xl lg:text-7xl xl:text-8xl font-black tracking-tighter leading-[0.9] text-white uppercase">
-                UNDERSTAND <br />
-                THE EXTENT OF <br />
-                <span className="text-primary italic text-6xl lg:text-8xl xl:text-9xl">ONLINE THREATS.</span>
+              <h2 className="text-3xl md:text-5xl lg:text-6xl font-black tracking-tighter leading-[0.9] text-white">
+                Understand <br />
+                the extent of <br />
+                <span className="text-primary italic text-4xl lg:text-6xl xl:text-7xl">online threats.</span>
               </h2>
             </BlurFade>
           </div>
           
           <BlurFade delay={0.2} className="md:w-1/3">
             <button className="bg-secondary text-[#1B1E4B] px-10 py-5 rounded-full font-black text-sm tracking-widest uppercase hover:scale-105 transition-all shadow-xl shadow-secondary/20">
-              LEARN MORE
+              Learn more
             </button>
           </BlurFade>
         </div>
@@ -38,16 +38,16 @@ const JourneyDashboard = () => {
 
             <div className="relative z-10 flex flex-col gap-12 text-white">
               <div className="flex flex-col gap-2">
-                <span className="text-5xl lg:text-7xl xl:text-8xl font-black italic tracking-tighter">1.2 BILLION</span>
-                <span className="text-[10px] font-black tracking-widest text-white/40 uppercase text-white">MALWARE INFECTIONS PREVENTED IN 2026</span>
+                <span className="text-4xl lg:text-6xl xl:text-7xl font-black italic tracking-tighter uppercase leading-none">1.2 Billion</span>
+                <span className="text-[10px] font-black tracking-widest text-white/40 uppercase">Malware infections prevented in 2026</span>
               </div>
               <div className="flex flex-col gap-2">
-                <span className="text-5xl lg:text-7xl xl:text-8xl font-black italic tracking-tighter">1 BILLION</span>
-                <span className="text-[10px] font-black tracking-widest text-white/40 uppercase text-white">PRIVATE DATA FILES SHIELDED FROM LEAKS</span>
+                <span className="text-4xl lg:text-6xl xl:text-7xl font-black italic tracking-tighter uppercase leading-none">1 Billion</span>
+                <span className="text-[10px] font-black tracking-widest text-white/40 uppercase">Private data files shielded from leaks</span>
               </div>
               <div className="flex flex-col gap-2">
-                <span className="text-4xl lg:text-5xl xl:text-6xl font-black italic tracking-tighter text-primary">300,000</span>
-                <span className="text-[10px] font-black tracking-widest text-white/40 uppercase text-white">NEW DAILY MALWARE SIGNATURES IDENTIFIED</span>
+                <span className="text-3xl lg:text-4xl xl:text-5xl font-black italic tracking-tighter text-primary uppercase leading-none">300,000</span>
+                <span className="text-[10px] font-black tracking-widest text-white/40 uppercase">New daily malware signatures identified</span>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ const JourneyDashboard = () => {
               </div>
               <div className="space-y-4">
                 <span className="text-4xl font-black italic text-white">31%</span>
-                <p className="text-sm font-medium text-white/40 leading-relaxed uppercase tracking-widest">OF ALL BREACHES WERE CAUSED BY PHISHING AND STOLEN CREDENTIALS.</p>
+                <p className="text-sm font-medium text-white/40 leading-relaxed tracking-widest uppercase">of all breaches were caused by phishing and stolen credentials.</p>
               </div>
             </div>
 
@@ -70,7 +70,7 @@ const JourneyDashboard = () => {
               </div>
               <div className="space-y-4">
                 <span className="text-2xl font-black italic leading-tight uppercase tracking-tight text-white">Less than a second</span>
-                <p className="text-sm font-medium text-white/40 leading-relaxed uppercase tracking-widest">IS THE TIME IT TAKES TO CRACK ANY OF THE TOP 10 MOST POPULAR PASSWORDS.</p>
+                <p className="text-sm font-medium text-white/40 leading-relaxed tracking-widest uppercase">is the time it takes to crack any of the top 10 most popular passwords.</p>
               </div>
             </div>
           </div>
