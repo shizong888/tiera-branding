@@ -24,8 +24,8 @@ const JourneyInformationControl = () => {
         <BlurFade delay={0.2}>
           <div className="relative w-full bg-[#1B1E4B] rounded-[3rem] p-12 md:p-24 overflow-hidden shadow-2xl flex flex-col md:flex-row items-center gap-16">
             <div className="flex-1 space-y-10">
-              <h3 className="text-4xl md:text-5xl font-black tracking-tighter text-white">Know about threats instantly</h3>
-              <p className="max-w-md text-xl text-white/60 font-medium leading-relaxed">
+              <h3 className="text-3xl md:text-4xl font-black tracking-tighter text-white">Know about threats instantly</h3>
+              <p className="max-w-md text-lg text-white/60 font-medium leading-relaxed">
                 Get alerts about leaked passwords and personal data the moment it happens on the dark web.
               </p>
               <button className="text-sm font-black tracking-widest text-secondary hover:text-white transition-colors uppercase flex items-center gap-2">

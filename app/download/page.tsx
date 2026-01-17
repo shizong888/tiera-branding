@@ -2,6 +2,12 @@
 
 import Navbar from "@/components/Navbar";
 import DownloadHero from "@/components/download/DownloadHero";
+import DeviceDownloadGrid from "@/components/download/DeviceDownloadGrid";
+import HowToSection from "@/components/download/HowToSection";
+import BenefitsGrid from "@/components/download/BenefitsGrid";
+import ComparisonSection from "@/components/download/ComparisonSection";
+import DownloadCTA from "@/components/download/DownloadCTA";
+import DownloadFAQ from "@/components/download/DownloadFAQ";
 import Image from "next/image";
 
 export default function DownloadPage() {
@@ -9,23 +15,13 @@ export default function DownloadPage() {
     <main className="min-h-screen bg-white text-black selection:bg-primary/30">
       <Navbar />
       <DownloadHero />
+      <DeviceDownloadGrid />
+      <HowToSection />
+      <BenefitsGrid />
+      <ComparisonSection />
+      <DownloadCTA />
+      <DownloadFAQ />
       
-      {/* Device Selection Section */}
-      <section className="py-32 px-6 bg-white">
-        <div className="container max-w-6xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
-            {['Windows', 'macOS', 'iOS', 'Android', 'Linux', 'Chrome'].map((os) => (
-              <div key={os} className="flex flex-col items-center gap-4 group cursor-pointer">
-                <div className="w-20 h-20 rounded-3xl bg-zinc-50 border border-zinc-100 flex items-center justify-center group-hover:bg-secondary group-hover:border-secondary transition-all">
-                  <div className="w-8 h-8 bg-foreground/10 group-hover:bg-foreground/20 rounded" />
-                </div>
-                <span className="text-sm font-bold tracking-tight">{os}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Footer (Matching Home) */}
       <footer className="py-24 px-6 bg-[#f9fafb] border-t border-border">
         <div className="container max-w-6xl mx-auto flex flex-col items-center gap-16 text-center">
